@@ -1,0 +1,38 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "title": "Task Management Dashboard",
+      "description": "A full-stack web application for managing tasks and projects with real-time collaboration features. Users can create teams, assign tasks, set deadlines, and track progress with an intuitive dashboard interface.",
+      "technologies": [
+        "React",
+        "TypeScript",
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "Socket.io"
+      ],
+      "github": "https://github.com/bengeier/task-dashboard",
+      "live": "https://task-dashboard-demo.netlify.app",
+      "image": "/src/assets/project1.jpg",
+      "featured": true
+    },
+    {
+      "id": 2,
+      "title": "Personal Finance Tracker",
+      "description": "A responsive web app that helps users track expenses, set budgets, and visualize spending patterns. Features include transaction categorization, monthly reports, and financial goal setting with interactive charts.",
+      "technologies": [
+        "React",
+        "JavaScript",
+        "Python",
+        "Flask",
+        "SQLite",
+        "Chart.js"
+      ],
+      "github": "https://github.com/bengeier/finance-tracker",
+      "live": "https://finance-tracker-bg.vercel.app",
+      "image": "/src/assets/project2.jpg",
+      "featured": true
+    }
+  ]
+}

@@ -1,3 +1,4 @@
+import Projects from "./Projects";
 function Home() {
   return (
     <div className="home">
@@ -40,6 +41,11 @@ function Home() {
               a different challenge I've tackled and solution I've crafted.
             </p>
           </div>
+        </section>
+
+        {/* Projects Section */}
+        <section id="projects" className="projects-section">
+          <Projects />
         </section>
 
         {/* Tech Stack */}
@@ -225,12 +231,6 @@ function Home() {
               }
             }
           `}</style>
-        </section>
-
-        {/* Projects Section Placeholder */}
-        <section id="projects" className="projects-section">
-          <h2>Featured Projects</h2>
-          <p>Projects component will go here...</p>
         </section>
       </div>
     </div>
